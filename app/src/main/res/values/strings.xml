@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WorkTest</string>
+    <string name="button_click">Button1</string>
+    <string name="button_click2">Button2</string>
+    <string name="message1">message1</string>
+    <string name="message2">message2</string>
+</resources>

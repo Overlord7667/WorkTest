@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">РаботаТест</string>
+    <string name="button_click">Кнопка1</string>
+    <string name="button_click2">Кнопка2</string>
+    <string name="message1">Закончился заряд!!!</string>
+    <string name="message2">Не хватает средств</string>
+</resources>
