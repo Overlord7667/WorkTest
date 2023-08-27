@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Button2(View view) {
         //Toast.makeText(this, R.string.button_click2, Toast.LENGTH_LONG).show();
-        Toast.makeText(this,getString(R.string.message2) + " " + count++, Toast.LENGTH_LONG).show();
+        Toast.makeText(this,getString(R.string.message2) + " " + count--, Toast.LENGTH_LONG).show();
 //        Log.i("Button_2","Work on click");
 //        Log.e("Button_2","Work on click");
 //        Log.w("Button_2","Work on click");
