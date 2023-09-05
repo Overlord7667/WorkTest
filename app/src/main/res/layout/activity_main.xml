@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -14,22 +15,43 @@
 <!--        app:layout_constraintEnd_toEndOf="parent"-->
 <!--        app:layout_constraintStart_toStartOf="parent"-->
 <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--        android:minWidth="10px"-->
+    <!--        android:maxWidth="400px"-->
+<!--    android:textColor="@color/textButton"-->
+<!--    android:backgroundTint="@color/salat"-->
+<!--    android:textSize="30sp"-->
+
+<!--    android:textStyle="italic|bold"-->
+<!--    android:textAllCaps="true"-->
+<!--    android:layout_centerHorizontal="true"-->
+<!--    android:layout_marginTop="150px"-->
     <Button
+        android:id="@+id/vizov"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="100dp"
-        android:textLocale="@string/button_click"
-        android:text="@string/button_click"
-        android:onClick="Button1"/>
+
+        android:onClick="Button1"
+
+        android:text="Hello World!!!!!!!!!!!!!" />
 
     <Button
+        android:id="@+id/vizov2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
-        android:textLocale="@string/button_click2"
-        android:text="@string/button_click2"
-        android:onClick="Button2"/>
+
+        android:onClick="Button2"
+        android:text="@string/button_click2" />
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="200dp"-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/Light"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="Light"-->
+<!--        android:text="Light"/>-->
 
 </RelativeLayout>
